@@ -16,3 +16,8 @@ It has different methods, such as, newmove() or run()
 
 ## Barril
 It has 5 different attributes: the barrels’ X position, Y position, direction and the image we use for the barrels to not be static
+
+
+
+## PLAYING
+To play you just need to install the environment.yml and run the Main.py file
