@@ -120,7 +120,7 @@ class Game:
             
         
         # The first thing to do is to create the screen
-        pyxel.init(constants.WIDTH, constants.HEIGHT, caption=constants.CAPTION) #we use the constanst that we establish in the CONSTANT file
+        pyxel.init(constants.WIDTH, constants.HEIGHT, title=constants.CAPTION) #we use the constanst that we establish in the CONSTANT file
         pyxel.load("assets/Mario.pyxres") #the folder and file name of the pictures 
         
         pyxel.run(self.update, self.draw) #to run our game (it runs every 1sec)
